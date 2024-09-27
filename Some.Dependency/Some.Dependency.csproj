@@ -6,4 +6,13 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <PropertyGroup Label="NuGet Package Information">
+    <!--<PackageId>Some.Dependency</PackageId>-->
+    <Version>0.5.3.3</Version>
+    <Authors>Gess1t</Authors>
+    <Description>Some Dependency</Description>
+    <PackageOutputPath>../nupkg</PackageOutputPath>
+    <PackageLicenseExpression>LGPL-3.0-or-later</PackageLicenseExpression>
+  </PropertyGroup>
+
 </Project>

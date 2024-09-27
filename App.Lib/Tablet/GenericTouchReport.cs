@@ -1,4 +1,5 @@
-using OpenTabletDriver.Plugin.Tablet.Touch;
+//using OpenTabletDriver.Plugin.Tablet.Touch;
+using App.Lib.Tablet.Touch;
 
 namespace App.Lib.Tablet
 {

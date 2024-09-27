@@ -6,20 +6,20 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
-  <ItemGroup Condition=" '$(TargetFramework)' == 'net5.0' ">
-    <ProjectReference Include="../.modules/OpenTabletDriver/OpenTabletDriver.Plugin/OpenTabletDriver.Plugin.csproj" Version="0.5.3.3" />
+  <!--<ItemGroup Condition=" '$(TargetFramework)' == 'net5.0' ">
+    <ProjectReference Include="../.modules/OpenTabletDriver/OpenTabletDriver.Plugin/OpenTabletDriver.Plugin.csproj" Private="False" />
   </ItemGroup>
 
   <ItemGroup Condition=" '$(TargetFramework)' == 'net6.0' ">
-    <ProjectReference Include="../.modules/OpenTabletDriver-0.6.x/OpenTabletDriver.Plugin/OpenTabletDriver.Plugin.csproj" Version="0.6.4.0" />
-  </ItemGroup>
+    <ProjectReference Include="../.modules/OpenTabletDriver-0.6.x/OpenTabletDriver.Plugin/OpenTabletDriver.Plugin.csproj" Private="False" />
+  </ItemGroup>-->
 
-  <!--<ItemGroup Condition=" '$(TargetFramework)' == 'net5.0' ">
+  <ItemGroup Condition=" '$(TargetFramework)' == 'net5.0' ">
     <ProjectReference Include="../Some.Dependency/Some.Dependency.csproj" Version="0.5.3.3" />
   </ItemGroup>
 
   <ItemGroup Condition=" '$(TargetFramework)' == 'net6.0' ">
     <ProjectReference Include="../Some.Dependency-0.6.x/Some.Dependency-0.6.x.csproj" Version="0.6.4.0" />
-  </ItemGroup>-->
+  </ItemGroup>
 
 </Project>
