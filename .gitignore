@@ -2,3 +2,4 @@ build
 temp
 bin
 obj
+_logs
