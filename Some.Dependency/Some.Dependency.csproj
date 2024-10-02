@@ -3,11 +3,12 @@
   <PropertyGroup>
     <TargetFramework>net5</TargetFramework>
     <LangVersion>preview</LangVersion>
+    <RootNamespace>Some.Dependency</RootNamespace>
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
   <PropertyGroup Label="NuGet Package Information">
-    <!--<PackageId>Some.Dependency</PackageId>-->
+    <PackageId>Some.Dependency</PackageId>
     <Version>0.5.3.3</Version>
     <Authors>Gess1t</Authors>
     <Description>Some Dependency</Description>

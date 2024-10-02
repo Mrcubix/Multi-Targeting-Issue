@@ -1,6 +1,6 @@
 ﻿using System.Numerics;
 
-namespace App.Lib.Tablet.Touch
+namespace Some.Dependency.Tablet.Touch
 {
     public class TouchPoint
     {

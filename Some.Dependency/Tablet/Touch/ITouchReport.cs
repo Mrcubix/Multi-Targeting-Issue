@@ -1,4 +1,4 @@
-﻿namespace App.Lib.Tablet.Touch
+﻿namespace Some.Dependency.Tablet.Touch
 {
     public interface ITouchReport : IDeviceReport
     {
