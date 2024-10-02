@@ -1,4 +1,4 @@
-namespace App.Lib.Tablet
+namespace Some.Dependency.Tablet
 {
     public interface IDeviceReport
     {
