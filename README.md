@@ -1,4 +1,4 @@
-# Multi-targetting issues
+# Multi-targeting issues
 
 This is the showcase of an issue with the restore system of nuget.
 For some reasons, when a `PackageId` is defined, restore will break and use the dependency with the latest version, 
