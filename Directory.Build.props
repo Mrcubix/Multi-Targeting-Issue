@@ -3,4 +3,13 @@
     <NoWarn>$(NoWarn); NETSDK1138</NoWarn>
     <NuGetAuditLevel>critical</NuGetAuditLevel>
   </PropertyGroup>
+
+  <Target Name="NukePackageId" BeforeTargets="_GenerateRestoreProjectPathWalk" Condition="'$(AssemblyName)' == 'Some.Dependency-0.6.x'">
+    
+    <PropertyGroup>
+      <PackageId></PackageId>
+    </PropertyGroup>
+
+    <Message Importance="High" Text="Nuked PackageId in Assembly $(AssemblyName)." />
+  </Target>
 </Project>
