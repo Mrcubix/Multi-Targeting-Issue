@@ -1,5 +1,5 @@
 ﻿//using OpenTabletDriver.Plugin.Tablet.Touch;
-using App.Lib.Tablet.Touch;
+using Some.Dependency.Tablet.Touch;
 using App.Lib.Tablet;
 
 namespace App.Lib;
