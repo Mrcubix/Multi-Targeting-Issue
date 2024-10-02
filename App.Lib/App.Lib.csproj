@@ -7,19 +7,27 @@
   </PropertyGroup>
 
   <!--<ItemGroup Condition=" '$(TargetFramework)' == 'net5.0' ">
-    <ProjectReference Include="../.modules/OpenTabletDriver/OpenTabletDriver.Plugin/OpenTabletDriver.Plugin.csproj" Private="False" />
+    <ProjectReference Include="../.modules/OpenTabletDriver/OpenTabletDriver.Plugin/OpenTabletDriver.Plugin.csproj" Private="False">
+      <SetTargetFramework>TargetFramework=net5</SetTargetFramework>
+    </ProjectReference>
   </ItemGroup>
 
   <ItemGroup Condition=" '$(TargetFramework)' == 'net6.0' ">
-    <ProjectReference Include="../.modules/OpenTabletDriver-0.6.x/OpenTabletDriver.Plugin/OpenTabletDriver.Plugin.csproj" Private="False" />
+    <ProjectReference Include="../.modules/OpenTabletDriver-0.6.x/OpenTabletDriver.Plugin/OpenTabletDriver.Plugin.csproj" Private="False">
+      <SetTargetFramework>TargetFramework=net6.0</SetTargetFramework>
+    </ProjectReference>
   </ItemGroup>-->
 
   <ItemGroup Condition=" '$(TargetFramework)' == 'net5.0' ">
-    <ProjectReference Include="../Some.Dependency/Some.Dependency.csproj" Version="0.5.3.3" />
+    <ProjectReference Include="../Some.Dependency/Some.Dependency.csproj" PrivateAssets="All">
+      <SetTargetFramework>TargetFramework=net5</SetTargetFramework>
+    </ProjectReference>
   </ItemGroup>
 
   <ItemGroup Condition=" '$(TargetFramework)' == 'net6.0' ">
-    <ProjectReference Include="../Some.Dependency-0.6.x/Some.Dependency-0.6.x.csproj" Version="0.6.4.0" />
+    <ProjectReference Include="../Some.Dependency-0.6.x/Some.Dependency-0.6.x.csproj" PrivateAssets="All">
+      <SetTargetFramework>TargetFramework=net6.0</SetTargetFramework>
+    </ProjectReference>
   </ItemGroup>
 
 </Project>
